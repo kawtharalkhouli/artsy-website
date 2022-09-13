@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>artsy</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!--header section starts-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-palette"></i> artsy</a>
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="courses.html">courses</a>
+            <a href="enroll.html">enroll</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+     <!--header section starts-->
+<!--account form section starts-->
+<div class="account-form">
+    <div id="close-form" class="fas fa-times"></div>
+    <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">register</span>
+    </div>
+    <form class="login-form active" action="">
+        <h3>login now</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="flex">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+            <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn">
+    </form>
+    <form class="register-form" action="">
+        <h3>register now</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <input type="password" placeholder="confirm your password" class="box">
+        <input type="submit" value="register now" class="btn">
+    </form>
+
+</div>
+<!--account form section ends-->
+
+
+
+<!-- home section starts  -->
+<section class="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <section class="swiper-slide slide" style="background: url('images/home-slide2.jpg')  no-repeat;">
+            <div class="content">
+                <h3>art lover?</h3>
+                <p>You Came to the Right Place!</p>
+                <a href="#" class="btn">get started</a>
+            </div>
+            </section>
+            <section class="swiper-slide slide" style="background: url('images/home-slide4.jpg') no-repeat;">
+            <div class="content">
+                <h3>art lover?</h3>
+                <p>You Came to the Right Place!</p>
+                <a href="#" class="btn">get started</a>
+            </div>
+            </section>
+            <section class="swiper-slide slide" style="background: url('images/home-slide3.jpg') no-repeat;">
+                <div class="content">
+                    <h3>art lover?</h3>
+                    <p>You Came to the Right Place!</p>
+                    <a href="#" class="btn">get started</a>
+                </div>
+                </section>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+ 
+</section>
+
+<!-- subjects section starts  -->
+<section class="subjects">
+    <h1 class="heading">our popular subjects</h1>
+    <div class="swiper subjects-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\mandala-home.jpg" alt="">
+                    <h3>mandala</h3>
+                </div>
+                <div class="content">
+                    <h3>mandala</h3>
+                    <p>Mandala art is a geometric design that holds a great deal of symbolism</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\watercoloring.jpg" alt="">
+                    <h3>watercolour</h3>
+                </div>
+                <div class="content">
+                    <h3>watercolour</h3>
+                    <p>Learn about the methods of painting with water colours!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\paintinggg.jpg" alt="">
+                    <h3>painting</h3>
+                </div>
+                <div class="content">
+                    <h3>painting</h3>
+                    <p>Explore the art of expressing ideas and emotions through aesthetic paint!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\street-photography-home.jpg" alt="">
+                    <h3>street photography</h3>
+                </div>
+                <div class="content">
+                    <h3>street photography</h3>
+                    <p>Explore the essence of photographing real, unposed moments!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\sketch-home.jpg" alt="">
+                    <h3>sketch</h3>
+                </div>
+                <div class="content">
+                    <h3>sketch</h3>
+                    <p>Explore freehand drawing in addition to having sketches of your own!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\crafts-home.jpg">
+                    <h3>crafts</h3>
+                </div>
+                <div class="content">
+                    <h3>crafts</h3>
+                    <p>Enroll in this subject to create crafty projects created by hand!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- subjects section ends -->
+
+<!-- home courses slider section starts  -->
+
+<section class="home-courses">
+    <h1 class="heading">our popular courses</h1>
+    <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\course-1.png" alt="">
+                    <h3>visual arts</h3>
+                </div>
+                <div class="content">
+                    <h3>visual arts</h3>
+                    <p>Learn more about art forms that create works that are visual in nature.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\course-2.png" alt="">
+                    <h3>film & photography</h3>
+                </div>
+                <div class="content">
+                    <h3>film & photography</h3>
+                    <p>Learn about photographic artworks and the fine-art-photography</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\course-3.png" alt="">
+                    <h3>art history</h3>
+                </div>
+                <div class="content">
+                    <h3>art history</h3>
+                    <p>Learn about the origins of American art until the present day.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\course-4.png" alt="">
+                    <h3>music</h3>
+                </div>
+                <div class="content">
+                    <h3>music</h3>
+                    <p>Explore the basics of music as well as singing and performing.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\course-5.png" alt="">
+                    <h3>design</h3>
+                </div>
+                <div class="content">
+                    <h3>graphic design</h3>
+                    <p>Explore graphic communication through the understanding of elements.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images\course-6.png">
+                    <h3>urban planning</h3>
+                </div>
+                <div class="content">
+                    <h3>urban planning</h3>
+                    <p>Learn about the design of the physical environment.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- home courses slider section ends -->
+
+<!-- footer section starts  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3><i class="fas fa-palette"></i> artsy </h3>
+            <p>Art is life!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html" class="link">home</a>
+            <a href="about.html" class="link">about</a>
+            <a href="courses.html" class="link">courses</a>
+            <a href="blogs.html" class="link">blogs</a>
+            <a href="contact.html" class="link">contact</a>
+        </div>
+        <div class="box">
+            <h3>useful links</h3>
+            <a href="#" class="link">help center</a>
+            <a href="#" class="link">ask questions</a>
+            <a href="#" class="link">send feedback</a>
+            <a href="#" class="link">privacy policy</a>
+            <a href="#" class="link">terms of use</a>
+        </div>
+        <div class="box">
+            <h3>new updates</h3>
+            <p>subscribe for the latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+    <div class="credit"> created by <span>kawthar alkhouli</span> | all rights reserved! </div>
+</section>
+<!-- footer section ends -->
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js\script.js"></script>
+
+</body>
+</html>
